@@ -1,0 +1,8 @@
+.container {
+    max-width: 850px;
+    padding: 40px;
+    margin: 0 auto;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 18px;
+    line-height: 1.7;
+  }

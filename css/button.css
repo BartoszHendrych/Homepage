@@ -1,0 +1,14 @@
+.button {
+    width: 100%;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    background-color: #dc143c;
+    padding: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+  
+.button:hover {
+    background-color: #636363;
+    color: #ffffff;
+}

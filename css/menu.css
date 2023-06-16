@@ -1,0 +1,20 @@
+.menu {
+    margin: 35px auto;
+    border-top: 5px solid #000000;
+    border-bottom: 5px solid #000000;
+}
+
+.menu__listItem {
+    list-style: none;
+}
+   
+.menu__link {
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+}
+   
+.menu__link:hover {
+    color: #dc143c;
+    outline: none;
+}

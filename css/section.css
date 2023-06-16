@@ -1,0 +1,12 @@
+.section {
+    padding: 15px 0;
+}
+
+.section__tableContainer {
+    overflow-x: auto;
+}
+
+.section__words {
+    color: #ff0000;
+}
+   
