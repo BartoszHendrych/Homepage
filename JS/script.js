@@ -1,12 +1,23 @@
-console.log("Hello!");
+{
+   const welcome = () => {
+      console.log("Hello World!");
+   }
 
-let button = document.querySelector(".button");
-let body = document.querySelector(".body");
-let button__colorChange = document.querySelector(".button__colorChange");
+   const onChangeBackgroundClick = () => {
+      const body = document.querySelector(".body");
+      const button__colorChange = document.querySelector(".button__colorChange");
 
-button.addEventListener("click", () => {
-   body.classList.toggle("gray");
+      body.classList.toggle("gray");
+      button__colorChange.innerText = body.classList.contains("gray")
+      ? "Poprzedni" : "Szary"; 
+   };
 
-   button__colorChange.innerText = body.classList.contains("gray")
-   ? "Poprzedni" : "Szary"; 
-});
+   const init  = () => {
+      const button = document.querySelector(".button");
+      button.addEventListener("click", onChangeBackgroundClick);
+
+      welcome();
+   };
+   
+   init();
+}
