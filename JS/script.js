@@ -3,7 +3,7 @@
       console.log("Hello World!");
    }
 
-   const onChangeBackgroundClick = () => {
+   const toggleBackground = () => {
       const body = document.querySelector(".body");
       const button__colorChange = document.querySelector(".button__colorChange");
 
@@ -14,7 +14,7 @@
 
    const init  = () => {
       const button = document.querySelector(".button");
-      button.addEventListener("click", onChangeBackgroundClick);
+      button.addEventListener("click", toggleBackground);
 
       welcome();
    };
