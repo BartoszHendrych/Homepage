@@ -5,10 +5,10 @@
 
    const toggleBackground = () => {
       const body = document.querySelector(".body");
-      const button__colorChange = document.querySelector(".button__colorChange");
+      const buttonChangeColorElement = document.querySelector(".buttonChangeColorElement");
 
       body.classList.toggle("gray");
-      button__colorChange.innerText = body.classList.contains("gray")
+      buttonChangeColorElement.innerText = body.classList.contains("gray")
       ? "Poprzedni" : "Szary"; 
    };
 
