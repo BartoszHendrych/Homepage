@@ -9,3 +9,5 @@ https://bartoszhendrych.github.io/homepage/
 - CSS
 - JavaScript
 - Convection BEM
+
+![html_css_jsIcon](images/html_css_js.png)
