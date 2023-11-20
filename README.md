@@ -4,6 +4,7 @@ My first web development project was an extraordinary experience for me. I chose
 - HTML
 - CSS
 - JavaScript
+  
 to create a website that not only presents content but is also interactive.
 
 ## Demo
